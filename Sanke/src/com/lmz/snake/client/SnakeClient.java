@@ -19,6 +19,9 @@ public class SnakeClient extends MyFrame{
 	Image background = ImageUtil.images.get("background");
 	Image fail = ImageUtil.images.get("fail");
 	
+	public static void main(String[] args) {
+		new SnakeClient().loadFram();//加载窗体
+	}
 	
 	public void loadFram() {
 		super.loadFrame();
@@ -59,7 +62,5 @@ public class SnakeClient extends MyFrame{
 		g.drawString("SCORE"+mySnake.score, 700, 100);
 	}
 	
-	public static void main(String[] args) {
-		new SnakeClient().loadFram();//加载窗体
-	}
+
 }
