@@ -19,6 +19,10 @@ public class SnakeClient extends MyFrame{
 	Image background = ImageUtil.images.get("background");
 	Image fail = ImageUtil.images.get("fail");
 	
+	/**
+	 * 启动
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		new SnakeClient().loadFram();//加载窗体
 	}
